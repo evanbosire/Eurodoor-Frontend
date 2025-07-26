@@ -14,6 +14,9 @@ import Register from "./pages/Register/Register";
 import { ToastContainer } from "react-toastify";
 import "./App.css";
 import { useState } from "react";
+import Order from "./pages/Orders/Orders";
+import Supply from "./pages/SupplyReport/Supply";
+import ServiceBookings from "./pages/ServiceBooking/ServiceBooking";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -61,6 +64,9 @@ function App() {
                   element={<Inactiveemployee />}
                 />
                 <Route path="/addstaff" element={<Addstaff />} />
+                <Route path="/orders" element={<Order />} />
+                <Route path="/supply" element={<Supply />} />
+                <Route path="/booking" element={<ServiceBookings />} />
               </Routes>
             </div>
           </div>

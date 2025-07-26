@@ -60,7 +60,7 @@ const roles = [
   "Dispatch Manager",
   "Supplier",
   "Driver",
-  "Production Manager ",
+  "Production Manager",
   "Blacksmith",
   "Supervisor",
   "Technician"

@@ -132,6 +132,20 @@ function Sidebar({ isOpen, setIsSidebarOpen }) {
               >
                 <li>Orders</li>
               </Link>
+              <Link
+                to={"/supply"}
+                className="custom-link"
+                onClick={handleLinkClick}
+              >
+                <li>Supply</li>
+              </Link>
+              <Link
+                to={"/booking"}
+                className="custom-link"
+                onClick={handleLinkClick}
+              >
+                <li>Service Booking</li>
+              </Link>
             </ul>
           )}
         </ul>
